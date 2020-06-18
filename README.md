@@ -43,4 +43,6 @@ parsed, using efficient software techniques and data structures, we created algo
 Copy the repository and clone to your local machine. You will most likely need to add Json simple-1.1.1.jar file to your
 project structure. You can download it from here: https://code.google.com/archive/p/json-simple/downloads. 
 Add this to your project structure. Additionally, don't forget to update the configuration for your Main class. You will
-need to specify the arguments. There should be a total of 5 arguments. Each is spaced out by a space. 
+need to specify the arguments. There should be a total of 5 arguments. Each is spaced out by a space. The input files 
+were too big to be uploaded onto github, so I included them in the gitignore file. You can use your own input files or 
+go to the public website of housing data for philadelphia. 
