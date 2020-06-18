@@ -1,0 +1,5 @@
+.imi
+*.csv
+log.txt
+population.txt
+*.json

@@ -1,0 +1,69 @@
+Requirements:
+Design:
+1. Use N-Tier Architecture:
+2. The classes that read the input files should get the name of the input file via their constructor, passed from
+Main to whichever object creates them
+3. Use Singleton Pattern: Logger and StartProgram
+4. Use Strategy Design Pattern: Tasks 9 and 10
+5. Efficiency - Memoization
+
+ZIP CODE Filed across all objects
+
+Data Structures:
+Searching for information, retrieving certain information, then performing analysis - HashTable/HashSet
+Matching data from different sources
+Displayed in order
+
+
+Tasks:
+1. Read in parking violations from CSV
+2. Read in parking violations from JSON
+3. Read in property values from CSV
+4. Read in population data in text file
+5. Handle proper run time arguments - 5
+6. Prompt User action to be performed with the data - 6 - UserInterface
+7. Data Analysis: Total Population for all Zip Codes - calculate sum
+8. Data Analysis: Total Fines per capita - Displayed in order - TreeSet
+9. Data Analysis: Average Residential Market Value - calculate average
+10. Data Analysis: Average Residential Total Livable Area - calculate average
+11. Data Analysis: Total Residential Market Value per Capita - calculate total
+12. Data Analysis: Additional Feature
+13. Logger
+14. Project Report
+15. Handle Output
+
+
+
+Other Notes:
+594 Project Notes:
+- Memoization: programming technique in which we keep a Map of inputs
+(arguments) to outputs (results) and return the result from the Map if the same input
+is seen more than once. This will lead to more memory utilization but may greatly
+reduce execution time.
+
+--Project:Watch video again
+1. Create map of inputs to results
+2. Wrap original method call
+3. Use Map to Store Previous Results
+
+- Singleton Pattern: Creational pattern that ensures that there is only one instance of a class,
+and that it can be accessed easily
+● make the class’ constructor private
+● expose a public static method that returns the singleton instance
+
+--Project: Use for Logger and StartProgram/MainArgs
+
+- Strategy Pattern: Behavioral pattern in which we create classes to specify certain
+“strategies” that can be used as part of a larger algorithm
+
+--Project:
+-Use for Step 3 and 4
+-Need an interface Comparator
+-Need separate classes for Step 3 and 4 that implement the interface comparator
+-Need to figure out the common methods that will be used for both
+-Implement the common methods inside those classes
+
+
+
+Questions:
+-Use threads? Maybe wait till the end and then try to implement
